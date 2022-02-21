@@ -1,0 +1,181 @@
+body{
+  font-family:"Montserrat";
+
+}
+
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 3% 10% 8%;
+}
+h1{
+  font-family:"Montserrat-Black";
+  line-height: 1.5;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+
+/* Navagation bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 50px;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size:1.2rem;
+  font-family:Montserrat;
+}
+
+/* download button */
+.download-btn{
+  margin:5% 5% 5% 5%;
+
+}
+
+/* Title image */
+.title-image{
+  width:60%;
+
+  transform: rotate(25deg);
+  right: 30%;
+
+}
+
+/* features section */
+
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+
+
+
+
+}
+
+.features-box{
+
+  padding:6%;
+  text-align:center;
+}
+
+h3{
+  font-family: Montserrat-bold;
+  font-size: 2.2rem;
+}
+
+p{
+  color:#8f8f8f;
+}
+
+.icon{
+  color:#ef8172;
+  margin:5%;
+}
+
+.icon:hover{
+  color:#ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials{
+
+
+  background-color: #ef8172;
+
+  text-align:center;
+
+  color:#fff;
+}
+
+h2{
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+/* Press section */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding:3%;
+}
+
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+.carousel-item{
+  padding:10% 5%;
+}
+
+
+/* Pricing section */
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+
+.pricing-colum{
+  padding-left: 3%,2%;
+}
+
+#cta{
+  background-color:#ff4c68;
+  color: white;
+  text-align: center;
+}
+
+.ctaHeading{
+  font-family:"Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer{
+  padding-left: 7%;
+  padding-right: 10%;
+  text-align: center;
+}
+@media (max-width:1038px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+  position: static;
+  transform:rotate(0);
+  }
+}
+
+
+/* footer section */
+
+.social-icon{
+  margin:20px,10px;
+}
